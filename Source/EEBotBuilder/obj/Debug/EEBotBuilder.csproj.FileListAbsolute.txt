@@ -1,0 +1,9 @@
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\bin\Debug\EEBotBuilder.exe.config
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\bin\Debug\EEBotBuilder.exe
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\bin\Debug\EEBotBuilder.pdb
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.csprojResolveAssemblyReference.cache
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.Form1.resources
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.Properties.Resources.resources
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.GenerateResource.Cache
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.exe
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.pdb

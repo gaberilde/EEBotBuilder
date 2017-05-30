@@ -1,0 +1,6 @@
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\bin\Debug\ebbbot.exe.config
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\bin\Debug\ebbbot.exe
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\bin\Debug\ebbbot.pdb
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.exe
+c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.pdb
+C:\Users\MarcoAntonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.csprojResolveAssemblyReference.cache

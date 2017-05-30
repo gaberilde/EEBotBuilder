@@ -1,0 +1,7 @@
+This tool has been created by realmaster.
+It is a tool that you code in a whole new programming language, debug to test your bots and you can even save them as .exe!
+
+This tool is open source now, meaning you can contribute!
+Find an error? Go to the forum link and report it.
+
+Version 1.0.0

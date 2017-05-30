@@ -1,0 +1,31 @@
+# NOTE: You can use ?ask as a parameter to ask for user input.
+# ?askyes will ask for yes/no. The value is always returned as either yes or no.
+# You can also use var:[name]:[value]! [name]:[value]:[code] for only IF value.
+# For tutorials on how to use this application, check the github!
+
+# IMPORTANT: ?ask and ?askyes won't work in Debug mode from here. 
+# They must be ran directly from the bot.
+
+# example: botemail mybot ?ask
+
+# My first bot!
+log Hello world!
+log Connecting bot!
+bot test
+botemail test guest
+botpass test guest
+botlogin test
+botworld test PWRq1VbIEDbkI
+botjoin test
+
+# Using botfunction [name]! will call that function.
+# Let's say you have botfunction testx{
+#log test
+#}
+# If you do botfunction testx! the result would be 'test' in output!
+
+botfunction left{
+log Player left. Reason: *1
+}
+
+botdisconnected test left

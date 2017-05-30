@@ -1,0 +1,38 @@
+# NOTE: You can use ?ask as a parameter to ask for user input.
+# ?askyes will ask for yes/no. The value is always returned as either yes or no.
+# You can also use var:[name]:[value]! [name]:[value]:[code] for only IF value.
+# For tutorials on how to use this application, check the github!
+
+# IMPORTANT: ?ask and ?askyes won't work in Debug mode from here. 
+# They must be ran directly from the bot.
+
+# example: botemail mybot ?ask
+
+# My first bot!
+log Hello world!
+log Connecting bot!
+bot test
+botemail test wildcard@2.com
+botpass test test
+botlogin test
+
+log Bot logged in, now joining the world.
+
+botworld test PWRq1VbIEDbkI
+botjoin test
+
+log Initializing events
+
+botfunction player_added{
+bottalk test /pm *2 Welcome to this world! We hope you enjoy! Your id *1.
+var:*1:*2
+}
+botfunction player_left{
+bottalk test Goodbye, =*1=. We will miss you (not).
+}
+
+botevent test plrjoined player_added
+botevent test plrleft player_left
+
+bottalk test =*1= test
+log The bot is ready!
