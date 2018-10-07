@@ -7,3 +7,23 @@ c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBu
 c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.GenerateResource.Cache
 c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.exe
 c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\EEBotBuilder\obj\Debug\EEBotBuilder.pdb
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\bin\Debug\EEBotBuilder.exe.config
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\bin\Debug\EEBotBuilder.exe
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\bin\Debug\EEBotBuilder.pdb
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.Properties.Resources.resources
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.GenerateResource.cache
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.CopyComplete
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.exe
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.pdb
+C:\Users\Gaberilde\Downloads\Source\EEBotBuilder\obj\Debug\EEBotBuilder.MainWI.resources
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\bin\Debug\EEBotBuilder.exe.config
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\bin\Debug\EEBotBuilder.exe
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\bin\Debug\EEBotBuilder.pdb
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.MainWI.resources
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.Properties.Resources.resources
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.GenerateResource.cache
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.csproj.CopyComplete
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.exe
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\EEBotBuilder\obj\Debug\EEBotBuilder.pdb

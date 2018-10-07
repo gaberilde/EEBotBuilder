@@ -4,3 +4,18 @@ c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\
 c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.exe
 c:\users\marcoantonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.pdb
 C:\Users\MarcoAntonio\documents\visual studio 2013\Projects\EEBotBuilder\ebbbot\obj\Debug\ebbbot.csprojResolveAssemblyReference.cache
+C:\Users\Gaberilde\Downloads\Source\ebbbot\bin\Debug\ebbbot.exe.config
+C:\Users\Gaberilde\Downloads\Source\ebbbot\bin\Debug\ebbbot.exe
+C:\Users\Gaberilde\Downloads\Source\ebbbot\bin\Debug\ebbbot.pdb
+C:\Users\Gaberilde\Downloads\Source\ebbbot\obj\Debug\ebbbot.csprojAssemblyReference.cache
+C:\Users\Gaberilde\Downloads\Source\ebbbot\obj\Debug\ebbbot.csproj.CoreCompileInputs.cache
+C:\Users\Gaberilde\Downloads\Source\ebbbot\obj\Debug\ebbbot.csproj.CopyComplete
+C:\Users\Gaberilde\Downloads\Source\ebbbot\obj\Debug\ebbbot.exe
+C:\Users\Gaberilde\Downloads\Source\ebbbot\obj\Debug\ebbbot.pdb
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\bin\Debug\ebbbot.exe.config
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\bin\Debug\ebbbot.exe
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\bin\Debug\ebbbot.pdb
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\obj\Debug\ebbbot.csproj.CoreCompileInputs.cache
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\obj\Debug\ebbbot.csproj.CopyComplete
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\obj\Debug\ebbbot.exe
+C:\Users\Gaberilde\source\Repos\EEBotBuilderClean\Source\ebbbot\obj\Debug\ebbbot.pdb

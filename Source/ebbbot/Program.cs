@@ -8,12 +8,13 @@ using System.Net;
 using PlayerIOClient;
 
 // This code has been licensed by realmaster under the MIT license.
+// dont forget gabrielo!
 
 namespace ebbbot
 {
     class Program
     {
-        public static string bbb = "1",
+        public static string bbb = "1.1",
             onInputFunction = "";
         public static bool console = true;
         public static Dictionary<string, string> vars = new Dictionary<string, string>();
@@ -516,19 +517,7 @@ namespace ebbbot
             else
             {
                 string test = File.ReadAllText(System.AppDomain.CurrentDomain.FriendlyName).Substring(File.ReadAllText(System.AppDomain.CurrentDomain.FriendlyName).IndexOf("\n*code•") + 8);
-
-                Console.WriteLine("Made with EE Bot Builder created by realmaster.");
-                Console.WriteLine("Verifying version...");
-                string hp = new WebClient().DownloadString("http://pastebin.com/raw/hrPBajCc");
-                if (hp != bbb)
-                {
-                    Console.WriteLine("This bot is outdated. This one's version is V" + bbb + ", but the updated one is V" + hp + "!");
-                    Console.WriteLine("Please contact the bot's creator, as new versions usually fix bugs and other problems.");
-                }
-                Console.WriteLine("The bot will start in 5 seconds.");
-                System.Threading.Thread.Sleep(5000);
-                Console.WriteLine("Bot started.");
-                string code = EEBotBuilder.deobfuscate(test);
+                string code = test;
                 queuer = new System.Threading.Thread(new System.Threading.ThreadStart(SayQueuer));
                 queuer.Start();
 

@@ -309,127 +309,127 @@ namespace ebbbot
 
             return "";
         }
-        public static string obfuscate(string txt)
-        {
-            Random r = new Random();
-            string obf = "";
-            for (int i = 0; i < txt.Split('\n').Length; i++)
-            {
-                string l = txt.Split('\n')[i];
-                if (l.StartsWith("#"))
-                {
-                    l = l.Replace("a", "◘");
-                    l = l.Replace("o", "┤");
-                    for (int x = (l.Length - 1); x >= 0; x--)
-                        obf += (l[x]);
+        //public static string obfuscate(string txt)
+        //{
+        //    Random r = new Random();
+        //    string obf = "";
+        //    for (int i = 0; i < txt.Split('\n').Length; i++)
+        //    {
+        //        string l = txt.Split('\n')[i];
+        //        if (l.StartsWith("#"))
+        //        {
+        //            l = l.Replace("a", "◘");
+        //            l = l.Replace("o", "┤");
+        //            for (int x = (l.Length - 1); x >= 0; x--)
+        //                obf += (l[x]);
 
-                    obf += "/%ß";
-                }
-                else if (l.StartsWith("var:"))
-                {
-                    l = l.Replace("var:", "╣");
-                    l = l.Replace("e", "☼");
-                    l = l.Replace(":", "Ð");
-                    for (int x = (l.Length - 1); x >= 0; x--)
-                        obf += (l[x]);
+        //            obf += "/%ß";
+        //        }
+        //        else if (l.StartsWith("var:"))
+        //        {
+        //            l = l.Replace("var:", "╣");
+        //            l = l.Replace("e", "☼");
+        //            l = l.Replace(":", "Ð");
+        //            for (int x = (l.Length - 1); x >= 0; x--)
+        //                obf += (l[x]);
 
-                    obf += "$À";
-                }
-                else
-                {
-                    int r2 = r.Next(0, 4);
+        //            obf += "$À";
+        //        }
+        //        else
+        //        {
+        //            int r2 = r.Next(0, 4);
 
-                    l = l.Replace("a", "▓");
-                    l = l.Replace("e", "▒");
+        //            l = l.Replace("a", "▓");
+        //            l = l.Replace("e", "▒");
 
-                    if (r2 == 1)
-                        l = l.Replace("o", "‗");
-                    else
-                        l = l.Replace("o", "Æ");
+        //            if (r2 == 1)
+        //                l = l.Replace("o", "‗");
+        //            else
+        //                l = l.Replace("o", "Æ");
 
-                    r2 = r.Next(0, 4);
+        //            r2 = r.Next(0, 4);
 
-                    if (r2 == 1)
-                        l = l.Replace("b", "♣");
-                    else
-                        l = l.Replace("b", "♠");
+        //            if (r2 == 1)
+        //                l = l.Replace("b", "♣");
+        //            else
+        //                l = l.Replace("b", "♠");
 
-                    r2 = r.Next(0, 4);
+        //            r2 = r.Next(0, 4);
 
-                    if (r2 == 1)
-                        l = l.Replace("t", "○");
-                    else
-                        l = l.Replace("t", "☺");
+        //            if (r2 == 1)
+        //                l = l.Replace("t", "○");
+        //            else
+        //                l = l.Replace("t", "☺");
 
-                    l = l.Replace(":", "◘");
-                    l = l.Replace(" ", "⌂");
-                    l = l.Replace("A", "█");
-                    l = l.Replace("E", "▬");
-                    l = l.Replace("O", "♂");
-                    l = l.Replace("B", "•");
-                    l = l.Replace("T", "♦");
+        //            l = l.Replace(":", "◘");
+        //            l = l.Replace(" ", "⌂");
+        //            l = l.Replace("A", "█");
+        //            l = l.Replace("E", "▬");
+        //            l = l.Replace("O", "♂");
+        //            l = l.Replace("B", "•");
+        //            l = l.Replace("T", "♦");
 
-                    obf += l;
-                }
+        //            obf += l;
+        //        }
 
-                obf += ('\n');
-            }
+        //        obf += ('\n');
+        //    }
 
-            obf = obf.Replace("\r", "\n");
-            obf = obf.Replace("\n\n", "\n");
+        //    obf = obf.Replace("\r", "\n");
+        //    obf = obf.Replace("\n\n", "\n");
 
-            return obf;
-        }
-        public static string deobfuscate(string txt)
-        {
-            string obf = "";
-            for (int i = 0; i < txt.Split('\n').Length; i++)
-            {
-                string l = txt.Split('\n')[i];
-                if (l.EndsWith("#/%ß"))
-                {
-                    l = l.Replace("◘", "a");
-                    l = l.Replace("┤", "o");
-                    l = l.Replace("/%ß", "");
+        //    return obf;
+        //}
+        //public static string deobfuscate(string txt)
+        //{
+        //    string obf = "";
+        //    for (int i = 0; i < txt.Split('\n').Length; i++)
+        //    {
+        //        string l = txt.Split('\n')[i];
+        //        if (l.EndsWith("#/%ß"))
+        //        {
+        //            l = l.Replace("◘", "a");
+        //            l = l.Replace("┤", "o");
+        //            l = l.Replace("/%ß", "");
 
-                    for (int x = (l.Length - 1); x >= 0; x--)
-                        obf += (l[x]);
-                }
-                else if (l.StartsWith("$À"))
-                {
-                    l = l.Replace("╣", "var:");
-                    l = l.Replace("☼", "e");
-                    l = l.Replace("Ð", ":");
-                    l = l.Replace("$À", "");
+        //            for (int x = (l.Length - 1); x >= 0; x--)
+        //                obf += (l[x]);
+        //        }
+        //        else if (l.StartsWith("$À"))
+        //        {
+        //            l = l.Replace("╣", "var:");
+        //            l = l.Replace("☼", "e");
+        //            l = l.Replace("Ð", ":");
+        //            l = l.Replace("$À", "");
 
-                    for (int x = (l.Length - 1); x >= 0; x--)
-                        obf += (l[x]);
-                }
-                else
-                {
-                    l = l.Replace("▓", "a");
-                    l = l.Replace("▒", "e");
-                    l = l.Replace("‗", "o");
-                    l = l.Replace("Æ", "o");
-                    l = l.Replace("♣", "b");
-                    l = l.Replace("♠", "b");
-                    l = l.Replace("○", "t");
-                    l = l.Replace("☺", "t");
-                    l = l.Replace("◘", ":");
-                    l = l.Replace("⌂", " ");
-                    l = l.Replace("█", "A");
-                    l = l.Replace("▬", "E");
-                    l = l.Replace("♂", "O");
-                    l = l.Replace("•", "B");
-                    l = l.Replace("♦", "T");
+        //            for (int x = (l.Length - 1); x >= 0; x--)
+        //                obf += (l[x]);
+        //        }
+        //        else
+        //        {
+        //            l = l.Replace("▓", "a");
+        //            l = l.Replace("▒", "e");
+        //            l = l.Replace("‗", "o");
+        //            l = l.Replace("Æ", "o");
+        //            l = l.Replace("♣", "b");
+        //            l = l.Replace("♠", "b");
+        //            l = l.Replace("○", "t");
+        //            l = l.Replace("☺", "t");
+        //            l = l.Replace("◘", ":");
+        //            l = l.Replace("⌂", " ");
+        //            l = l.Replace("█", "A");
+        //            l = l.Replace("▬", "E");
+        //            l = l.Replace("♂", "O");
+        //            l = l.Replace("•", "B");
+        //            l = l.Replace("♦", "T");
 
-                    obf += l;
-                }
+        //            obf += l;
+        //        }
 
-                obf += ('\n');
-            }
+        //        obf += ('\n');
+        //    }
 
-            return obf;
-        }
+        //    return obf;
+        //}
     }
 }
